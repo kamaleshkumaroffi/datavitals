@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: datavitals
+Version: 0.1.2
+Summary: A reusable Python library for data cleaning, ETL, and SQL query building
+Home-page: https://github.com/Kamaleshkumar/datavitals
+Author: Kamaleshkumar.K
+Author-email: kamaleshkumaroffi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: pytest>=7.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# datavitals
+
+**datavitals** is a reusable Python library for data engineering that standardizes:
+
+- Data Cleaning  
+- ETL (Extract, Transform, Load) pipelines  
+- SQL query building  
+
+It helps data engineers, analysts, and Python developers avoid repetitive code, reduce errors, and maintain consistency across projects.
+
+---readme.md file 
+
+## Author
+
+**Kamaleshkumar.K**  
+[LinkedIn Profile](https://www.linkedin.com/in/kamaleshkumaroffi)
+
+---
+
+## Features
+
+1. Data Cleaning – Remove nulls, duplicates, trim strings, safe numeric conversions.  
+2. ETL Pipelines – Predefined and custom transformations, safe handling of empty data.  
+3. SQL Builder – Generate dynamic SELECT queries with optional WHERE and LIMIT clauses.  
+4. Production-ready Design – Custom exceptions and type hints for reliability.  
+5. Easy to Use – Minimal learning curve, ready for new projects.  
+
+---
+
+## Installation
+
+Install **datavitals** using pip:
+
+```bash
+pip install datavitals
